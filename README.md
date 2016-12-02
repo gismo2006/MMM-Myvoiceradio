@@ -26,6 +26,8 @@ At first you have to create a hotword and config it in your config.js file. Like
 
 Some times before I write about Radistop. If this hotword is detected, the Node_helper.js file send the order kill mpg123 to stop radio. This will a hard method but it works. And normaly no other Sound was playing at the same time the order kill mpg123 will ok. 
 
+!!! VERY IMPORTANT!!! A user called Broberg show me a mistake! The used exec command didn´t work. Because I forget to explain YOU have to make the script files exutable!!! I use the command "chmod +x <file>" in the shell. 
+
 At last I will say: YOU HAVE TO CHECK EVERY FOLDERPATH in my files!!! Maybe at your MM² there was other Folders use.
 AND: I write, I use to play mp123. I didn't know if it will be install by standard.
 
